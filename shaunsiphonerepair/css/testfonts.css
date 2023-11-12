@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'lovelyFont';
+	src: url('fonts/ProximaNova-Regular.otf') 
+	format('opentype');
+}
+
+@font-face {
+  font-family: "lovelyFont2";
+  src: url("fonts/proximanova-regular-webfont.eot");
+  src: local("☺"),
+    url("fonts/proximanova-regular-webfont.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: 'lovelyFont';
+    
+    src: url('ProximaNova-Regular.otf') format('opentype');
+   font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: "lovelyFont";
+    src: url('ProximaNova-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+  
+
+@font-face {
+    font-family: 'attentica_4fultralight';
+  
+    src: url('Attentica_4F_UltraLight-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'RegencieLight';
+    
+    src: 
+         url('RegencieLight.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'alphabetized cassette tapes';
+    
+    src: 
+         url('alphabetized cassette tapes.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+h1{
+	
+	font-family: 'alphabetized cassette tapes', sans-serif;
+	
+}
+
+h2{
+	font-family: 'ProximaNova-Regular', sans-serif;
+	 
+	}
+	
+	
+
+h3{
+	
+	font-family: 'attentica_4fultralight', sans-serif; 
+}
+
+
