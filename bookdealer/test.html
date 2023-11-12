@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Autocomplete - Custom data and display</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #image{
+	 float:left;
+	  
+	 }
+  
+  #project-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1em;
+  }
+  #project-icon {
+    float: left;
+    height: 32px;
+    width: 32px;
+  }
+  #project-description {
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+  <script>
+  $(function() {
+    var projects = [
+      {
+        value: "jquery",
+        label: "jQuery",
+        desc: "the write less, do more, JavaScript library",
+        icon: "jquery_32x32.png"
+      },
+      {
+        value: "jquery-ui",
+        label: "jQuery UI",
+        desc: "the official user interface library for jQuery",
+        icon: "jqueryui_32x32.png"
+      },
+      {
+        value: "sizzlejs",
+        label: "Sizzle JS",
+        desc: "a pure-JavaScript CSS selector engine",
+        icon: "sizzlejs_32x32.png"
+      }
+    ];
+ 
+ 
+ 
+    $( "#project" ).autocomplete({
+      minLength: 0,
+      source: "autocomplete_tools.php",
+      focus: function( event, ui ) {
+        //$( "#project" ).val( ui.item.value );
+		$( "#project" ).val( ui.item.value + " " + ui.item.abbrev );
+        return false;
+      },
+      select: function( event, ui ) {
+        $( "#project" ).val( ui.item.value + " " + ui.item.abbrev );
+        $( "#project-id" ).val( ui.item.id );
+        $( "#project-description" ).html( ui.item.abbrev );
+        //$( "#project-icon" ).attr( "src", "images/" + ui.item.icon );
+ 
+        return false;
+      }
+    })
+    .autocomplete( "instance" )._renderItem = function( ul, item ) {
+      return $( "<li>" )
+        .append( "<a>"+ "<img id='image' src='" + item.img + "' wdith = '30px' height = '60px'>" + item.value + "<br>" + item.abbrev + "</a><br><br>" )
+        .appendTo( ul );
+    };   
+  });
+  </script>
+</head>
+<body>
+ 
+<div id="project-label">Select a project (type "j" for a start):</div>
+<!--<img id="project-icon" src="images/accounting.jpg" class="ui-state-default" alt="">-->
+<input id="project" size="100px">
+<input type="hidden" id="project-id">
+<p id="project-description"></p>
+
+ 
+ 
+</body>
+</html>

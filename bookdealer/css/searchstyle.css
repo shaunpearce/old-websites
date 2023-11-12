@@ -1,0 +1,250 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.contentresults{
+	width: 60%;
+	margin-left: 20%;
+}
+
+.contentresults .item{
+	cursor: pointer; 
+	padding: 2%; 
+	margin: 2% 0;
+	height: 200px;
+	min-height: 250px;
+	max-height:300px;
+	width: 92%;
+	overflow:hidden;	
+	color:black;
+	
+	
+	/*
+	border-radius: 3px;  
+ 	 box-shadow: 0px 3px 8px rgba(0,0,0,0.3);  
+  	transform: translateZ(50px);  
+  	transition: all .6s;  */
+	
+}
+
+
+
+span.itl{
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	
+	
+}
+
+#pic{
+	max-width:20%; 
+	max-height:100%;
+	padding: 1%;
+	float:left;	
+}
+
+#tle{
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:26px;
+}
+
+#right{
+	text-align:right;
+	float:right;
+	margin-top:-20px;
+	font-size:16px;
+}
+
+#left{
+	margin-top: 5px;
+	float:left;
+	font-size:16px;
+}
+
+
+#top{
+	float:right;
+	margin-top:10px;
+	text-align:right;
+	
+}
+
+
+.item:hover, .item:active {  
+ /*
+   box-shadow: none;  
+    border-radius: 15px;
+	*/  
+	border-radius: 3px;  
+ 	 box-shadow: 0px 3px 8px rgba(0,0,0,0.3);  
+  	transform: translateZ(50px);  
+  	transition: all .6s;
+	
+}  
+  
+  .item:hover img {  
+    box-shadow: none;  
+    border-radius: 15px;  
+  }  
+    
+#flag{
+	float:right;
+	margin: 0 0 0 0;
+
+	text-align: right;
+}
+
+#desc_text, #comments_text{
+		font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+}
+
+
+.big_item{
+	padding: 2%;
+	min-height: 96%;
+	max-height:10%;
+	width: 60%;
+	overflow:hidden;
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left:20%;
+	
+}
+
+#big_title, #big_price{
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+
+#big_pic{
+	min-width: 30%;
+	max-width:30%; 
+	max-height:50%;
+	margin: 0 5% 2% 0;
+	float:left;
+	
+}
+
+#big_desc{
+	
+	height: 35px;
+	width: 35px;
+	/*min-width: 10%;
+	min_width: 10%;
+	max-width:10%; 
+	max-height:10%;
+	*/
+	
+} 
+
+#author_pic{
+	
+	max-width:4%; 
+	max-height:4%;
+	margin: 0 2% 0 0;
+	
+	}
+	
+#edition_pic{
+	vertical-align: sub;
+	margin: 0 0 -1% 0;
+	max-width:5%; 
+	max-height:5%;
+}
+
+#top{
+	float:right;
+	margin-top:10px;
+	text-align:right;
+	
+}
+#big_price{
+	
+	float:right;
+}
+
+#contact_pic{
+	/*max-height: 10%;
+	max-width: 10%;*/
+	
+	height: 35px;
+	width: 35px;
+}
+
+ #contact_details{
+	float:left;
+	
+	 
+	}
+	
+	#desc_text, #comments_text{
+		font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+}
+
+
+#pay_button{
+	
+	float:right;
+	margin: 0 2% 0 0%;
+}
+
+#location_pic{
+	
+	width: 25px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+#comments_pic
+{
+	height: 35px;
+	width: 35px;
+}
+
+select#sortsearch {
+  width: 20%;
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #aaa;
+  background: #fff;
+  text-align: center;
+  font-size: 1rem;
+  height: 45px;
+  float: right;
+  margin-bottom: 2%;
+}
+
+
+input#submitsearch {
+    /* margin: 15px 0 0 0; */
+  color: #f3f3f3;
+  /* background: #334; */
+  background: #082E57;
+  border: 1px solid #334;
+  text-transform: uppercase;
+  cursor: pointer;
+  float: right;
+  margin-left: 2%;
+  height: 40px;
+    width: 8%;
+}
+
+input#submitsearch:hover{
+	  border-color: #f3f3f3;
+  color: #fff;
+  background: #334;
+  background: #0563AB;
+  color: #f3f3f3;
+}
+	
+	
+	h1#searchtitle {
+  float: left;
+}
+div#pages {
+  /* margin-left: 86%; */
+  padding-bottom: 5%;
+  text-align: center;
+}
+
+}
+
+}

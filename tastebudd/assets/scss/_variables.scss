@@ -1,0 +1,18 @@
+//$pink: #e10e8e;
+$pink: rgb(236, 22, 149);
+
+
+$mobile-s: 320px;
+$mobile-m: 375px;
+$mobile-l: 425px;
+$tablet: 768px;
+$laptop: 991px;
+$desktop: 1199px;
+$desktop-l: 1440px; //Used as min not max like others 
+
+@mixin display-flex(){
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex; 
+}

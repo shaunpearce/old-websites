@@ -1,0 +1,31 @@
+$primary-font: Proxima-Nova;
+
+@font-face {
+  font-family: Proxima-Nova;
+  src: url(../fonts/proxima/ProximaNova-Light.otf);
+  font-weight: 300; 
+}
+
+@font-face {
+  font-family: Proxima-Nova;;
+  src: url(../fonts/proxima/ProximaNova-Reg.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Proxima-Nova;
+  src: url(../fonts/proxima/ProximaNova-Sbold.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: Proxima-Nova;
+  src: url(../fonts/proxima/ProximaNova-Bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Proxima-Nova;
+  src: url(../fonts/proxima/ProximaNova-Xbold.otf);
+  font-weight: 800;
+}

@@ -1,0 +1,9 @@
+[01-Feb-2018 11:00:26 Europe/Dublin] PHP Warning:  include(footer.html): failed to open stream: No such file or directory in /home2/b560821/public_html/demos/bookdealer/xout/test.php on line 14
+[01-Feb-2018 11:00:26 Europe/Dublin] PHP Warning:  include(footer.html): failed to open stream: No such file or directory in /home2/b560821/public_html/demos/bookdealer/xout/test.php on line 14
+[01-Feb-2018 11:00:26 Europe/Dublin] PHP Warning:  include(): Failed opening 'footer.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/b560821/public_html/demos/bookdealer/xout/test.php on line 14
+[01-Feb-2018 11:01:01 Europe/Dublin] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home2/b560821/public_html/demos/bookdealer/xout/test2.php on line 3
+[01-Feb-2018 11:01:01 Europe/Dublin] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home2/b560821/public_html/demos/bookdealer/xout/test2.php on line 3
+[01-Feb-2018 11:01:01 Europe/Dublin] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/b560821/public_html/demos/bookdealer/xout/test2.php on line 3
+[01-Feb-2018 11:01:01 Europe/Dublin] PHP Warning:  include(footer.html): failed to open stream: No such file or directory in /home2/b560821/public_html/demos/bookdealer/xout/test2.php on line 44
+[01-Feb-2018 11:01:01 Europe/Dublin] PHP Warning:  include(footer.html): failed to open stream: No such file or directory in /home2/b560821/public_html/demos/bookdealer/xout/test2.php on line 44
+[01-Feb-2018 11:01:01 Europe/Dublin] PHP Warning:  include(): Failed opening 'footer.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home2/b560821/public_html/demos/bookdealer/xout/test2.php on line 44

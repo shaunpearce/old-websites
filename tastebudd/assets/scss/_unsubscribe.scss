@@ -1,0 +1,80 @@
+#logo-text{
+    font-size: 3vw;
+}
+
+#unsubscribe-section {
+    @include display-flex();
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#unsubscribe-heading{
+    font-weight: 700;
+    color: #ec1695;
+    font-size: 2.5vw;
+}
+
+.subtitle {
+    font-weight: 500;
+    color: #ec1695;
+    font-size: 1.5vw;
+}
+
+@media screen and (min-width: $desktop-l) {
+    
+    #logo-text{
+        font-size: 44px;
+    }
+    
+    #unsubscribe-heading{
+        font-size: 36px;
+    }
+    
+    .subtitle{
+        font-size: 22px;
+    }
+    
+}
+
+@media screen and (max-width: $desktop) {
+    
+}
+
+@media screen and (max-width: $laptop) {
+    #sad-icon {
+        width: 108px;
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    #sad-icon {
+        width: 72px;
+    }
+    
+   #logo-text{
+        font-size: 23px;
+    }
+    
+    #unsubscribe-heading{
+        font-size: 23px;
+    }
+    
+    .subtitle{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: $mobile-l) {
+    
+}
+
+@media screen and (max-width: $mobile-m) {
+    #sad-icon {
+        width: 48px;
+    }
+}
+
+@media screen and (max-width: $mobile-s) {    
+
+}

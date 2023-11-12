@@ -1,0 +1,298 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@keyframes test {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes opacityChange {
+  from {
+    opacity:1;
+  }
+  to {
+    opacity:0.5;
+  }
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity:0;
+  }
+  to {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes test2 {
+  from {
+    top:-50%;
+  }
+  to {
+    top:50%;
+  }
+}
+@-webkit-keyframes toGrey {
+  to {
+    color:#eee;
+  }
+}
+
+#container {
+  display:inline;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-225px;
+  margin-left:-225px;
+  height:450px;
+  width:450px;
+  -webkit-animation: opacityChange 3s 11s 1;
+  -webkit-animation-fill-mode: forwards; 
+}
+
+#circle {
+  position:relative;
+  z-index:1;
+  padding:7.5%;
+  height:250px;
+  weight:250px;
+  border: 60px solid #bbb;
+  border-radius:100%;
+  animation: fadein 5s 0 10;
+  -webkit-animation: fadein 5s 0 1;
+}
+
+#line {
+  position:absolute;
+  z-index:3;
+  top:50%;
+  left:50%;
+  height:275px;
+  width:0px;
+  background:#bbb;
+  border: 45px solid #bbb;
+  margin-left:-45px;
+  border-radius:4em;
+  margin-top:-350px;
+  -webkit-animation: test2 5s 0s 1;
+}
+
+#space {
+  position:absolute;
+  z-index:2;
+  width:120px;
+  height:280px;
+  top:50%;
+  left:50%;
+  background-color:#fff;
+  margin-top:-250px;
+  margin-left:-60px;
+}
+
+body, html {
+	font-family:'Play';
+	font-size:18px;
+}
+
+h1{
+	font-family:'Marvel';
+	font-size:36px;
+	margin:0;
+}
+h3{
+	font-family:'Marvel';
+	font-size:28px;
+	padding:2em;	
+}
+
+p{
+	margin:0;
+	padding:0px 0px 0px 0px;
+}
+
+.grey{
+  -webkit-animation: toGrey 3s 11s 1;
+  -webkit-animation-fill-mode: forwards; 
+}
+
+a, a:visited{
+	text-decoration:none;
+	color:#000;
+}
+
+.main_points{
+	position:absolute;
+  opacity:0;
+  z-index:4;
+	top:50%;
+	left:50%;
+	margin-left:-159px;
+	margin-top:-111px;
+  -webkit-animation: fadein 5s 5s 1;
+  -webkit-animation-fill-mode: forwards; 
+}
+
+.trans{
+	position:absolute;
+	z-index:-99;	
+	top:50%;
+	left:50%;
+	margin-left:-240px;
+	margin-top:-300px;
+}
+.soc_med{
+	padding:1em;
+}
+
+a.sm_img img{
+	height:35px;
+	width:40px;
+	padding:5px;
+}
+
+a.sm_img:hover{
+	background:none;
+}
+/*PERFECT LAYOUT*/
+body {
+		margin:0;
+		padding:0;
+		border:0;			/* This removes the border around the viewport in old versions of IE */
+		width:100%;
+		background:#fff;
+		min-width:600px;		/* Minimum width of layout - remove line if not required */
+						/* The min-width property does not work in old versions of Internet Explorer */
+		font-size:90%;
+	}
+	a {
+		color:#369;
+	}
+	a:hover {
+		color:#fff;
+		background:#369;
+		text-decoration:none;
+	}
+	h3 {
+		margin:.8em 0 .8em 0;
+		padding:0;
+	}
+	/*p {
+		margin:.4em 0 .8em 0;
+		padding:0;
+	}*/
+	img {
+		margin:10px 0 5px;
+	}
+	/* Header styles */
+	#header {
+		clear:both;
+		float:left;
+		width:100%;
+	}
+	#header {
+		border-bottom:1px solid #000;
+	}
+	#header p,
+	#header h1,
+	#header h2 {
+		padding:.4em 15px 0 15px;
+		margin:0;
+	}
+	#header ul {
+		clear:left;
+		float:left;
+		width:100%;
+		list-style:none;
+		margin:10px 0 0 0;
+		padding:0;
+	}
+	#header ul li {
+		display:inline;
+		list-style:none;
+		margin:0;
+		padding:0;
+	}
+	#header ul li a {
+		display:block;
+		float:left;
+		margin:0 0 0 1px;
+		padding:3px 10px;
+		text-align:center;
+		background:#eee;
+		color:#000;
+		text-decoration:none;
+		position:relative;
+		left:15px;
+		line-height:1.3em;
+	}
+	#header ul li a:hover {
+		background:#369;
+		color:#fff;
+	}
+	#header ul li a.active,
+	#header ul li a.active:hover {
+		color:#fff;
+		background:#000;
+		font-weight:bold;
+	}
+	#header ul li a span {
+		display:block;
+	}
+	/* 'widths' sub menu */
+	#layoutdims {
+		clear:both;
+		background:#eee;
+		border-top:4px solid #000;
+		margin:0;
+		padding:6px 15px !important;
+		text-align:right;
+	}
+	/* column container */
+	.colmask {
+		position:relative;	/* This fixes the IE7 overflow hidden bug */
+		clear:both;
+		float:left;
+		width:100%;			/* width of whole page */
+		overflow:hidden;		/* This chops off any overhanging divs */
+	}
+	/* common column settings */
+	.colright,
+	.colmid,
+	.colleft {
+		float:left;
+		width:100%;
+		position:relative;
+	}
+	.col1,
+	.col2,
+	.col3 {
+		float:left;
+		position:relative;
+		padding:0 0 1em 0;
+		overflow:hidden;
+	}
+	/* Full page settings */
+	.fullpage {
+		background:#fff;		/* page background colour */
+	}
+	.fullpage .col1 {
+		width:96%;			/* page width minus left and right padding */
+		left:2%;			/* page left padding */
+	}
+	/* Footer styles */
+	#footer {
+		clear:both;
+		float:left;
+		width:100%;
+		border-top:1px solid #000;
+	}
+	#footer p {
+		padding:10px;
+		margin:0;
+	}	

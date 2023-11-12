@@ -1,0 +1,92 @@
+#signup-container{
+    background: url(/assets/img/signup-background.png);
+    background-size: cover;
+    background-position: 50% 85%;
+}
+
+#signup-content{
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+#signup-title{
+    color: white;
+    font-weight: 700;
+    font-size: 4vw;
+    line-height: 4vw;
+}
+
+#signup-subtitle{
+    font-weight: 300;
+    color: white;
+    font-size: 2vw;
+}
+
+.footer-text-margin {
+    margin: 15px 0 0 0;
+}
+
+#signup-form-bottom {
+    position: relative;
+    margin: 25px 0 15px 0;
+}
+    
+#signup-form-bottom input#email-input{
+    width: 40%;
+    max-width: 375px;
+}
+
+@media screen and (min-width: $desktop-l) {
+    #signup-title{
+        font-size: 58px;
+        line-height: 58px;
+    }
+    
+    #signup-subtitle{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: $desktop) {
+    
+}
+
+@media screen and (max-width: $laptop) {
+    
+}
+
+@media screen and (max-width: $tablet) {
+    #signup-form-bottom input#email-input{
+        max-width: 150px;
+    }
+    
+    #signup-form-bottom input#email-input {
+        width: 60%;
+    }
+    
+    input#email-input {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: $mobile-l) {
+    .footer-text-margin {
+        margin: 5px 0 0 0;
+    }
+    
+    #signup-form-bottom {
+        margin: 5px 0 0 0;
+    }
+    
+    #signup-response-bottom{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: $mobile-m) {
+   
+}
+
+@media screen and (max-width: $mobile-s) {    
+
+}

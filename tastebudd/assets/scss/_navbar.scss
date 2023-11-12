@@ -1,0 +1,49 @@
+#nav-bar-container{
+    @include display-flex();
+}
+
+#nav-bar-logo {
+    width: 100px;
+    padding-right: 10px;
+    @include display-flex();
+    align-items: center;
+}
+
+#nav-bar-logo img {
+    width: 100%;   
+}
+
+#logo-text a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (min-width: $desktop-l) {
+    
+}
+
+@media screen and (max-width: $desktop) {
+    
+}
+
+@media screen and (max-width: $laptop) {
+   
+}
+
+@media screen and (max-width: $tablet) {
+    
+}
+
+@media screen and (max-width: $mobile-l) {
+    #nav-bar-logo {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: $mobile-m) {
+   
+}
+
+@media screen and (max-width: $mobile-s) {    
+
+}

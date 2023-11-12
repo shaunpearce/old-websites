@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+#logo {
+	
+	padding: 100px 0px 100px 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ul, li {
+  font-family: "proxima-nova", sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  font-size: 24px;
+  width: 100%;
+  height: 120px;
+  background: white;
+  position: fixed;
+  text-align: center;
+  line-height: 50px;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.header h1 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -6px;
+  line-height: 50px;
+  float: left;
+  padding-left: 25px;
+  color: #f67600;
+}
+.header nav {
+  float: right;
+  padding-right: 35px;
+  line-height: 50px;
+}
+.header nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 25px;
+  padding-top: .2em;
+}
+.header nav ul li a {
+  text-decoration: none;
+  color: #767d88;
+}
+.header nav ul li a:hover {
+  color: #f67600;
+}
+
+.header.shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+body {
+  height: 1000px;
+  background: #E8EBF0;
+}
+

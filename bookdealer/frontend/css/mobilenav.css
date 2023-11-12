@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.menu {
+  box-sizing: content-box !important;
+    position: fixed;
+    top: 35px;
+    right: 5px;
+    width: 75px;
+    height: 75px;
+    text-align: center;
+    z-index: 999;
+    color: #fff;
+}
+
+.menu:hover {
+  background: ligthen(#2980b9, 5%);
+}
+.menu a {
+  display: block;
+    text-decoration: none;
+    font-size: 48pt;
+    color: #162D54;
+    margin: 0 auto;
+}
+.menu .close {
+  display: none;
+}
+
+.trigger {
+  animation: menu-spin-back 0.4s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.round {
+  animation: menu-spin 0.4s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+
+@-webkit-keyframes menu-spin {
+  50% {
+    border-radius: 100%;
+  }
+  100% {
+    border-radius: 100%;
+    transform: rotate(180deg);
+  }
+}
+@-webkit-keyframes menu-spin-back {
+  50% {
+    border-radius: 0;
+  }
+  100% {
+    border-radius: 0;
+    transform: rotate(-180deg);
+  }
+}
+.white {
+  border-color: #fff;
+  color: #fff !important;
+}
+
+/*Brings drop down down on click*/
+.drop-down {
+  padding: 25px;
+  position: fixed;
+  width: 98%;
+  height: auto;
+  background: rgba(252, 252, 252, 0.98);
+  top: -100%;
+  transition: top 0.4s ease-in-out;
+ 
+  box-shadow: 0 0 10px 2px #000;
+}
+
+.down {
+  top: 0;
+  transition: top 0.4s ease-in-out;
+}
+
+
+/*Styles Dropdown*/
+.drop-down li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 2px solid #162D54;
+  
+  text-align: center;
+}
+.drop-down li:nth-child(1) {
+  border-top: 0;
+}
+.drop-down li:nth-child(5) {
+  border-bottom: 0;
+}
+.drop-down li:hover {
+  background: #162D54;
+}
+.drop-down a {
+  display: block;
+  font-size: 18pt;
+  color: #162D54;
+  text-decoration: none;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+.drop-down h1 {
+  font-family: 'Kotta One', serif;
+  font-size: 22pt;
+  text-align: center;
+  color: #fff;
+}
+
+.drop-down a:hover {
+    color: white;
+}
+
+img#mobilenavlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    padding-bottom: 20px;
+}
+
+ul, li {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+.navlogo {
+	content: url("file:///Users/shaunpearce/Desktop/BookDealer/startbootstrap-bare-1.0.3/img/mobilelogo2.png");
+}
+img#smalllogonav {
+	width: 100%;
+	max-width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+body {
+	padding-top: 100px;
+}
+
+#navcontainter {
+	height: 100px;
+}
+#navbar {
+	height: 100px;
+}
+#searchbar {
+	margin-top: 25px;
+}
+.menu {
+	left: 20px;
+	top: 0px;
+}
+}
+
+
+

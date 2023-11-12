@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>BookDealer.ie</title>
+
+<!-- Bootstrap Core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<!--CSS-->
+<link href="css/mainstyle.css" rel="stylesheet">
+<link href="css/fonts.css" rel="stylesheet">
+<link href="css/mobilenav.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<nav id="navbar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div id="navcontainter" class="navcontainer">
+    <div id="logocontainer"> 
+      <!--<img id="smalllogonav" src="img/logo.png">--> 
+      <img id="smalllogonav" class="navlogo" src="img/logo.png"> </div>
+    <div id="searchcontainer">
+      <input id="searchbar" placeholder="Search for Books..." type="text">
+      <a href="http://www.google.com"><img class="search-icon" src="img/search-icon.png"></a> </div>
+    <div class="drop-down">
+      <nav role='navigation'> <img id="mobilenavlogo" src="img/logo.png" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sell</a></li>
+          <li><a href="#">Booklists</a></li>
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Logout</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="navlinkscontainer">
+      <div class="" id="myNavbar">
+        <ul class="" id="navlistsmall">
+          <li class="navinline"><a class="removedecoration navstylesmall" href="#home">Settings</a></li>
+          <li class="navinline"><a class="removedecoration navstylesmall" href="#about">Logout</a></li>
+        </ul>
+        <ul class="" id="navlist">
+          <li class="navinline"><a class="removedecoration navstyle" href="#home">Home</a></li>
+          <li class="navinline"><a class="removedecoration navstyle" href="#about">Sell</a></li>
+          <li class="navinline"><a class="removedecoration navstyle" href="#facts">Booklists</a></li>
+        </ul>
+      </div>
+      <div class="menu"> <a class="trigger" href="#">&equiv;</a> <a class="close" href="#">&times;</a> </div>
+    </div>
+  </div>
+  <!-- /.container --> 
+</nav>
+<div class="container" id="homebannercontainer">
+  <div class="content" id="homebanner">
+    <div id="biglogocontainer"> <img src="img/logo.png" id="homebiglogo"> </div>
+    <div id="titlecontainter">
+      <div id="titlelines">
+        <h2 id="titlel1">The poor <span id="student">student's</span> answer to</h2>
+        <h2 id="titlel2">Buying and Selling College Books</h2>
+        <div id="button">
+          <h2 class="titlebutton" id="registerbutton">Register</h2>
+          <h2 class="titlebutton" id="learnbutton">Learn More</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+<div class="container" id="servicecontainer"> 
+  <!--<div id="backgroundservice"></div>-->
+  <div class="content" id="service">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-md-12 text-center">
+        <h1 id="sectiontitle">Our Service</h1>
+        <hr id="sectiontitlehr">
+      </div>
+    </div>
+    <div class="row" id="iconrow">
+      <div class="col-lg-4 col-md-4 col-md-12 text-center">
+        <div id="servicebox"> <img id="serviceicon" src="img/walleticon3.png">
+          <h2 id="servicetitle">Quick Cash</h2>
+          <h3 id="servicedesc">Register to Upload your previously used College Books along with contact details for students to find and buy. </h3>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-md-12 text-center">
+        <div id="servicebox"> <img id="serviceicon" src="img/piggyicon3.png">
+          <h2 id="servicetitle">Save Money</h2>
+          <h3 id="servicedesc">Find people selling their previously used College Books below retail price</h3>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-md-12 text-center">
+        <div id="servicebox"> <img id="serviceicon" src="img/listicon3.png">
+          <h2 id="servicetitle">Personalised Booklists</h2>
+          <h3 id="servicedesc">Add your College modules (created by lecturers and class reps) to your account to view respective book lists </h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container" id="explaincontainer">
+  <div class="content" id="explain"> 
+    
+    <!--BECOME A BOOKDEALER-->
+    <div id="explaintitle">
+      <h3 class="exptitle"><span id="explaintitle2font">How to use the service and become a</span></h3>
+      <h1 class="exptitle"><span id="explaintitlefont">BookDealer</span></h1>
+      <hr id="sectiontitlehr">
+    </div>
+    
+    <!-- SELL SIDE -->
+    <div id="explainsell">
+      <div class="row" id="exptitle2">
+        <div class="col-lg-12 col-md-12 col-md-12 ">
+          <h3 id="exptitle2font">Make <span id="">Money</span></h3>
+        </div>
+      </div>
+      <div class="row" id="explainrow">
+        <div class="row" id="textrow">
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="q">Would you like to have more <span id="money">cash?</span></span></h2>
+          </div>
+        </div>
+        <div class="row" id="textrow">
+          <div class=" col-md-offset-1 col-lg-7 col-md-7 col-md-7 col-sm-7 col-xs-11 nopad" id="bigtext">
+            <h3 id="explaintext2">...to buy the more important things throughout College.</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-md-4 col-sm-4 col-xs-12 nopad" id="bigtext"> <img id="baricons" src="img/emptywalleticon2.png"><img id="baricons" src="img/beericon.png"> </div>
+        </div>
+        <div class="row" id="picrow">
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="barcontainer"> <img id="explainpic" src="img/sell1.png"> </div>
+        </div>
+      </div>
+      <div class="row" id="explainrow">
+        <div class="row" id="textrow">
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="step">Step 1:</span></h2>
+          </div>
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="q">Upload your old College Books</span></h2>
+          </div>
+        </div>
+        <div class="row" id="textrow">
+          <div class="col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 col-xs-12 nopad" id="bigtext">
+            <h3 id="explaintext2">Gather all your previously used College books, create an account on BookDealer.ie and then simpy create ads for them (free) for others to see..</h3>
+          </div>
+          <div class="col-lg-8 col-md-8 col-md-8 col-sm-8 col-xs-12  nopad" id="barcontainer"> <img id="explainpic2" src="img/sell24.png"> </div>
+        </div>
+      </div>
+      <div class="row" id="explainrow">
+        <div class="row" id="textrow">
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="step">Step 2:</span></h2>
+          </div>
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="q">Arrange to meet a buyer</span></h2>
+          </div>
+        </div>
+        <div class="row" id="textrow">
+          <div class="col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 col-xs-12 nopad" id="bigtext">
+            <h3 id="explaintext2">Wait for interested buyers to contact you and arrange a place and time that suits to make the exchange and do the deal.</h3>
+          </div>
+          <div class="col-lg-8 col-md-8 col-md-8 col-sm-8 col-xs-12  nopad" id="barcontainer"> <img id="explainpic2" src="img/sell3.png"> </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--BUY SIDE-->
+    <div id="explainbuy">
+      <div class="row" id="exptitle2">
+        <div class="col-lg-12 col-md-12 col-md-12 ">
+          <h3 id="exptitle2font">Save Money</h3>
+        </div>
+      </div>
+      <div class="row" id="explainrow">
+        <div class="row" id="textrow">
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="q">Would you like to spend less <span id="money">cash?</span></span></h2>
+          </div>
+        </div>
+        <div class="row" id="textrow">
+          <div class=" col-md-offset-1 col-lg-7 col-md-7 col-md-7 col-sm-7 col-xs-11 nopad" id="bigtext">
+            <h3 id="explaintext2">...when buying College books for the term.</h3>
+          </div>
+          <div class="col-lg-4 col-md-4 col-md-4 col-sm-4 col-xs-12 nopad" id="bigtext"> <img id="baricons" src="img/pricetagicon.png"> </div>
+        </div>
+        <div class="row" id="picrow">
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="barcontainer"> <img id="explainpic" src="img/buy1.png"> </div>
+        </div>
+      </div>
+      <div class="row" id="explainrow">
+        <div class="row" id="textrow">
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="step">Step 1:</span></h2>
+          </div>
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="q">Find people selling Books you Need</span></h2>
+          </div>
+        </div>
+        <div class="row" id="textrow">
+          <div class="col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 col-xs-12 nopad" id="bigtext">
+            <h3 id="explaintext2">Logon to BookDealer.ie and simply search for books you need, to find students selling them in your area/College.</h3>
+          </div>
+          <div class="col-lg-8 col-md-8 col-md-8 col-sm-8 col-xs-12  nopad" id="barcontainer"> <img id="explainpic2" src="img/buy24.png"> </div>
+        </div>
+      </div>
+      <div class="row" id="explainrow">
+        <div class="row" id="textrow">
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="step">Step 2:</span></h2>
+          </div>
+          <div class="col-lg-12 col-md-12 col-md-12 nopad" id="bigtext">
+            <h2 id="explaintext1"><span id="q">Contact the Seller</span></h2>
+          </div>
+        </div>
+        <div class="row" id="textrow">
+          <div class="col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 col-xs-12 nopad" id="bigtext">
+            <h3 id="explaintext2">Once you have found a book you want to buy, contact the seller using their details attached to the ad and arrange a place and time that suits to make the exchange and do the deal.</h3>
+          </div>
+          <div class="col-lg-8 col-md-8 col-md-8 col-sm-8 col-xs-12  nopad" id="barcontainer"> <img id="explainpic2" src="img/buy3.png"> </div>
+        </div>
+      </div>
+    </div> 
+  </div> 
+   
+</div>
+
+<!--Final Pic-->
+<div class="container" id="explaincontainer">
+    <div class="content" id="explaintitlefinal">
+        
+         <div class="row" id="textrow">
+          <div class="col-sm-offset-1 col-lg-3 col-md-3 col-sm-3 col-xs-12 nopad" id="bigtext">
+            <h2 id="explaintext1" class="finalstep">Finally meet with the interested party to make the exchange.</h2>
+          </div>
+             
+              <div class=" col-lg-offset-4 col-md-offset-4 col-sm-offset-4 col-lg-3 col-md-3 col-sm-3 col-xs-12 nopad" id="bigtext">
+            <h2 id="explaintext1" class="finalstep alignright">Finally meet your dealer to make the exchange</h2>
+          </div>
+         
+        </div>
+        
+   
+    </div>
+    </div>
+</div>
+
+    <div class="container" id="servicecontainer"> 
+  <!--<div id="backgroundservice"></div>-->
+  <div class="content" id="service">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-md-12 text-center">
+        <h1 id="sectiontitle">Recently Added</h1>
+        <hr id="sectiontitlehr">
+          
+          <div id="recentad" class="col-lg-8 col-lg-offset-1 col-md-8">
+              <div class="row adcontainer">
+                 <div id="bookpic" class="col-lg-3 col-md-3" style="background-image: url(img/book1.png);">
+                     
+                  </div>
+              <div id="bookinfo" class="col-lg-9 col-md-9 text-left">
+                  <div id="infotitle" class="col-lg-12 col-md-12 text-left">
+                      <h2 id="booktitle">Bond Markets, Analysis and Strategies</h2>
+                  </div>
+                  <div id="info1" class="col-lg-6 col-md-6 text-left">
+                      
+                      <p>Author: <span class="light">Frank Fabozzi</span></p>
+                      <p>Edition: <span class="light">3rd</span></p>
+                     
+                      
+                      
+                  </div>
+                  
+                  <div id="info2" class="col-lg-6 col-md-6 text-right">
+                       <p>Price: <span class="light">€24</span></p>
+                      <p>Condition: <span class="light">Used W/ Markings</span></p>
+                      <p>Location: <span class="light">Dublin</span></p>
+                      <p>College: <span class="light">TCD</span></p>
+                  </div>
+                  
+                   <p id="datetext">Upload: 1 day ago (22/11/15)</p>
+                     
+             </div>
+              
+              
+              
+              </div>
+              
+              
+              <div class="row adcontainer">
+                 <div id="bookpic" class="col-lg-3 col-md-3" style="background-image: url(img/book2.png);">
+                     
+                  </div>
+              <div id="bookinfo" class="col-lg-9 col-md-9 text-left">
+                  <div id="infotitle" class="col-lg-12 col-md-12 text-left">
+                      <h2 id="booktitle">PHP & MySQL In Easy Stepss</h2>
+                  </div>
+                  <div id="info1" class="col-lg-5 col-md-5 text-left">
+                      
+                      <p>Author: <span class="light">Mike McGrath</span></p>
+                      <p>Edition: <span class="light">1st</span></p>
+                     
+                      
+                      
+                  </div>
+                  
+                  <div id="info2" class="col-lg-7 col-md-7 text-right">
+                       <p>Price: <span class="light">€15</span></p>
+                      <p>Condition: <span class="light">Used W/O Markings</span></p>
+                      <p>Location: <span class="light">Dublin</span></p>
+                      <p>College: <span class="light">UCD</span></p>
+                  </div>
+                  
+                   <p id="datetext">Upload: 1 day ago (22/11/15)</p>
+                     
+             </div>
+              
+              
+              
+              </div>
+          
+            
+          </div>
+          
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+            <div id="twitterfeed">
+           			<a class="twitter-timeline" href="https://twitter.com/search?q=%40BookDealer_ie%20OR%20%23BookDealer%20OR%20%23bookDealer%20OR%20%23bookdealer" data-widget-id="425699240463966208">Tweets about @BookDealer_ie OR #BookDealer OR #bookDealer OR #bookdealer</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        </div>
+          
+          </div>
+          
+          
+      </div>
+    </div>
+      
+    </div>
+    </div>
+    
+   
+    <footer id="footer">
+    
+        <div class="content" id="service">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-left">
+                    <p class="footertext">Contact Us</p>
+                    <p class="footertext vlight">support@bookdealer.ie</p>
+                
+                </div>
+                
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                    <p class="footertext">Socials</p>
+                    <p class="footertext vlight">Facebook</p>
+                    <p class="footertext vlight">Twitter</p>
+                
+                </div>
+                
+                
+                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                   <img id="smalllogonav" class="navlogo graylogo" src="img/logo.png">
+                
+                </div>
+                
+                
+            </div>
+        </div>
+    
+    </footer>
+    
+    
+
+  
+</div>
+<!-- /.container --> 
+
+<!-- jQuery Version 1.11.1 --> 
+<script src="js/jquery.js"></script> 
+
+<!-- Bootstrap Core JavaScript --> 
+<script src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/mainjs.js"></script>
+</body>
+</html>

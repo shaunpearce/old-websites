@@ -1,0 +1,29 @@
+
+@media (max-width: 991px) {
+    
+    .typed-cursor {
+    display:none;
+}
+    
+    
+    .intro-video .overlaynoise {
+    
+        
+    top: 0;
+   
+        
+}
+    
+    
+    .navbar-dark, .navbar-light {
+    background-color: #9A9A9A;
+    margin-bottom: 0;
+    border-bottom: 1px solid #33383f;
+}
+    
+    .logoimg {
+    width: 50px;
+}
+    
+    
+    }

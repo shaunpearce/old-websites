@@ -1,0 +1,732 @@
+header.intro-img-half.intro-dark-bg
+{
+    background-position: 50% 0px !important;
+    
+}
+
+#headerlogo{
+
+    width: 70%
+
+}
+
+#headerslogan{
+
+    margin-bottom:30px;
+    font-size: 30px;
+    font-family: 'Raleway'!important;
+}
+
+#tagline{
+    text-align: right;
+    padding: 0 12%;
+    line-height: 60px;
+    font-size: 25px;
+    font-family: 'Lato';
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#yellowtext{
+    color: #FAA21B;
+
+}
+
+#downarrowscrollcontainer{
+
+    height: 100%;
+    position: relative;
+}
+
+
+#downarrowscroll{
+
+    position: absolute;
+    top: 80%;
+    left: 48%;
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {
+  
+    #headerslogan{
+
+    margin-bottom:0px;
+    font-size: 15px;
+    letter-spacing: 8px;
+}
+      
+      #tagline{
+    
+    padding: 0 10%;
+    line-height: 0px;
+    font-size: 10px;
+    font-family: 'Lato';
+    font-weight: lighter;
+    font-style: italic;
+    text-transform: uppercase;
+}
+   
+}
+
+
+
+#sectiontitle{
+
+   
+    
+    letter-spacing: px;
+     color: #FAA21B;
+    Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 46px;
+    
+
+}
+
+
+/*section#bookings {
+    background-size:cover;
+    background-position: 50% 50%;
+    background-color: : white;
+}*/
+
+
+section#bookings {
+    background-color: white;
+}
+
+section#contact {
+    background-size:cover;
+    background-position: 50% 50%
+}
+
+
+#titlehr{
+
+    border-top: 3px solid #FAA21B;
+    max-width: 100px;
+    margin: 25px auto;
+    border-bottom: none;
+    margin-bottom: 50px;
+
+}
+
+#pricedesc2{
+    font-style: normal;
+    font-weight: 700;
+}
+
+#pricedesc1{
+    
+    font-weight: 700 !important;
+}
+
+#vip{
+    color: #FAA21B;
+    font-size: 40px
+
+
+}
+
+
+@media only screen and (min-width: 992px) {
+  
+    #pricingcontainer{
+
+    min-height: 630px;
+    margin-bottom: 50px !important;
+
+}
+    
+}
+
+@media only screen and (max-width: 991px) {
+  
+    #pricingcontainer{
+    margin-bottom: 50px !important;
+
+}
+    
+}
+
+
+#contact{
+    padding-top: 10px
+}
+
+#bookings{
+    padding-bottom: 10px;
+
+}
+
+#contacttitle{
+    color: #FAA21B;
+
+}
+
+.form-control {
+    padding: 0px;
+}
+
+#bookbutton{
+
+    color: #FAA21B;
+    background-color: transparent;
+    border-bottom-width: 1px;
+    border: 2px solid;
+    border-color: #FAA21B ;
+    border-radius: 2px;
+    font-family: "Raleway";
+    padding: 10px 30px;
+    float: right;
+}
+
+.borderz
+{
+    border: 1px solid white;
+}
+
+#eventcontainer {
+    /*height: 240px;*/
+    width: 85%;
+    border-radius: 3px;
+    overflow: hidden;
+    margin: 0;
+}
+
+
+
+#eventpiccontainer {
+    height: 240px;
+    padding: 0px;
+    float: right;
+}
+
+#eventimg {
+    height: 100%;
+    width: 100%;
+}
+
+#eventdetailscontainer {
+    background-color: #FAA21B;
+    height: 100%;
+    padding: 0px;
+}
+
+#eventcar{
+
+    margin-top: 50px;
+    margin-bottom: 100px
+
+}
+
+
+.date{
+    color: #434343;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#dateday{
+
+    font-size: 48px;
+}
+
+#datemonth
+{
+    font-size: 20px;
+}
+
+#time
+{
+    background-color: #434343;
+    color: white !;
+    font-size: 20px;
+    
+
+}
+
+#timetext{
+
+    color: white;
+}
+
+#eventtitle{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+@media only screen and (max-width: 767px) {
+  
+   #eventcontainer {
+    /*height: 240px;*/
+    width: 90%;
+   
+}
+
+
+
+#eventpiccontainer {
+    height: 160px;
+   
+}
+
+
+#eventcar{
+
+    margin-top: 50px;
+    margin-bottom: 100px
+
+}
+
+
+
+#dateday
+{
+    font-size: 18px;
+}
+#datemonth
+{
+    font-size: 12px;
+}
+
+
+#timetext{
+
+     font-size: 15px;
+}
+
+#eventtitle{
+    font-size: 10px;
+}
+
+}
+
+
+.owl-theme .owl-controls .owl-page span {
+	background-color: #FAA21B;
+    width: 80px;
+    height: 7px;
+    border-radius: 0px;
+    margin: 40px 20px
+}
+
+#events{
+
+    padding: 50px 0px;
+}
+
+.btn-primary{
+
+    border-color: transparent;
+    border-bottom: 2px solid #FAA21B;
+    
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+#galleryslectionrow{
+    margin-bottom: 30px;
+
+}
+
+.galbuttons{
+ 
+    font-family: "Raleway";
+    text-transform: none;
+    font-size: 16px;
+    color: #333333;
+    width: 200px;
+    font-weight: 600;
+    
+}
+
+#gallerydate{
+    font-size: 12px;
+    font-weight: normal;
+    
+
+}
+
+footer{
+
+  
+}
+
+#footerrow{
+
+    padding: 50px 80px 0 80px;
+    width: 100%;
+
+}
+
+
+#contactdetails{
+    font-family: Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    
+    
+}
+
+#signupicon{
+
+    margin-top:  30px;
+}
+
+#smicon{
+    width: 50px;
+    margin: 50px 5px;
+    
+
+}
+
+
+#extra{
+    background-color: #e5e5e5;
+    padding: 0px;
+}
+
+#extrapnael{
+
+    padding: 0px 40px;
+    margin: 0px;
+    
+}
+
+.eborder{
+
+    border-left: 2px solid grey;
+
+}
+
+#hotellogo{
+        min-width: 130px;
+    margin: 12px 0 10px 0;
+
+}
+
+#hoteltext{
+    font-size: 22px;
+
+}
+
+#rowfooter{
+
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+
+.gbutton {
+  position: relative;
+  //display:block;
+  height: 45px;
+  width: 160px;
+  margin: 10px 7px;
+  padding: 10px 10px;
+  
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #FAA21B ;
+  border: 2px #FAA21B  solid;
+  border-radius: 4px;
+  text-transform: uppercase;
+  outline: 0;
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+    float: right;
+}
+
+.fill:hover {
+  color: whitesmoke;
+}
+
+.fill:before {
+  content: "";
+  position: absolute;
+  background: #FAA21B ;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: -1;
+  -webkit-transition: top 0.09s ease-in;
+}
+
+.fill:hover:before {
+  top: 0;
+}
+
+
+ul#clients-carousel {
+    padding-right: 40px;
+}
+
+.eventcard {
+    width: 92%;
+    height: 300px;
+    
+    margin: 0 4%;
+    list-style: none;
+    overflow: hidden;
+    background: rgba(250, 162, 27, 0.85);
+   
+    
+   
+    margin: 15px 0;
+    
+    color: #3e444d;
+    border-radius: 3px;
+}
+
+.borders{
+   
+}
+
+.cardrow{
+
+   width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#eventpicture{
+    
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#eventimgcontainer{
+    padding: 0px;
+    z-index: 2;
+
+}
+
+#artist{
+    margin-top: 40%;
+    postion: 50% 50;
+    color: #FAA21B;
+    
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 700;
+    font-size: 26px;
+    z-index: 99;
+
+}
+
+#artistoverlay{
+  
+    width: 100%;
+    background-color: black;
+    height: 100%;
+    position: absolute;
+    opacity: 0.75;
+    z-index: -1;
+    
+
+}
+
+#eventimgcontainer{
+
+    
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+#datenumber{
+
+    color: #3e444d;
+    font-size: 60px;
+    font-family: 'Open Sans', sans-serif;
+       
+}
+
+#datemoth{
+    color: #3e444d ;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700
+    
+
+}
+
+/*#datetime{
+    
+    background-color: #FAA21B;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-top: 30px;
+    line-height: 60px
+    
+}
+*/
+#datetime{
+    
+    
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px solid #3e444d;
+    color: 3e444d;
+    margin-top: 30px;
+    line-height: 60px
+    
+}
+
+#eventtitle{
+    color: #434343;
+      font-family: Raleway, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+
+
+@media only screen and (max-width: 767px) {
+  
+  
+
+.eventcard {
+    
+    height: 200px;
+}
+
+#artist{
+   
+    font-size: 20px;
+  
+
+}
+
+    
+#eventimgcontainer{
+
+    height: 200px;
+}
+
+#datenumber{
+    margin-top: 10px;
+    font-size: 14px;
+    
+}
+
+#datemoth{
+    
+    font-size: 12px;
+
+}
+
+#datetime{
+    
+    
+    margin-top: 20px;
+    line-height: 50px;
+    font-size: 14px
+    
+}
+
+#eventtitle{
+   
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.owl-theme .owl-controls .owl-page span {
+	
+    width: 30px;
+    height: 7px;
+    
+    margin: 40px 10px
+}
+   
+}
+
+
+.gtope {
+  position: relative;
+  display:block;
+  height: 60px;
+  min-width: 200px;
+  margin: 10px 7px;
+  padding: 10px 10px;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #3e444d ;
+  border: 2px transparent  solid;
+  border-bottom: 4px #FAA21B  solid;
+    
+  border-radius: 4px;
+  text-transform: uppercase;
+
+  overflow:hidden;
+  background: none;
+  z-index: 1;
+  cursor: pointer;
+  transition:         0.08s ease-in;
+  -o-transition:      0.08s ease-in;
+  -ms-transition:     0.08s ease-in;
+  -moz-transition:    0.08s ease-in;
+  -webkit-transition: 0.08s ease-in;
+
+}
+
+
+.gtope.active{
+    background-color: #FAA21B;
+    color: white;
+
+}
+
+#gallerytitle{
+    font-weight: 700;
+
+}
+
+@media only screen and (max-width: 991px) {
+    .eborder{
+        border-top: 2px solid grey;
+        border-left: 2px transparent ;
+        
+    }
+    
+
+}
+
+a {
+  color: #3e444d;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #3e444d;
+  outline: none;
+}
+
+
+
+section#gallery {
+    margin-bottom: 200px;
+}
+
+

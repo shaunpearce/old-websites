@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.options {
+	
+	margin-left: 34%;
+  	width: 30%;
+	
+	
+	background: #fff;
+  	color: #333;
+  	font-family: Lato, sans-serif;
+  	display: block;
+	border-radius: 25px;
+
+}
+
+.viewbooks {
+	
+	text-align: center;
+	border-radius: 25px;
+	padding: 3%;
+	
+}
+
+.viewbooks img{
+	
+	/*width:24%;
+	margin-left: 38%;*/
+	width:20%;
+	float:left;
+	
+	
+}
+
+.icon{
+	
+	width: 24%;
+	margin-left:38%;
+}
+
+.image_off, #viewbooks:hover .image_on {
+   display:none;
+}
+.image_on, #viewbooks:hover .image_off, .viewbooks:hover{
+   display:block;
+   /*cursor: pointer;*/
+}
+
+
+.listedbooks {
+  margin-left: 20%;
+  width: 60%;
+  color: #333;
+  font-family: Lato, sans-serif;
+}
+img#bookpic{
+		
+	/*float:left;*/
+	/*width:20%;*/
+	
+	}
+.listedbook #left{
+	
+	
+}	
+
+
+.listedbooks .item
+{
+	cursor: pointer; 
+	padding: 2%; 
+	margin: 2% 0;
+	overflow:hidden;	
+	color:black;
+	
+}
+
+div#integration-list {
+  /* background: rgb(249, 249, 249); */
+  background: rgb(252, 252, 252);
+  padding: 10%;
+  /* width: 100%; */
+}
+
+input#msearch {
+  margin: 0 auto;
+  width: 30%;
+  height: 45px;
+  padding: 0 20px;
+  font-size: 1rem;
+  border: 1px solid #D0CFCE;
+  outline: none;
+  font-family: "proxima-nova", sans-serif;
+}
+
+select#module_college {
+  /* width: 100%; */
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #aaa;
+  background: #fff;
+  text-align: center;
+  font-size: 1rem;
+  height: 45px;
+}
+
+input#button {
+  /* margin: 15px 0 0 0; */
+  color: #f3f3f3;
+  /* background: #334; */
+  background: #082E57;
+  border: 1px solid #334;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* float: right; */
+  margin-left: 2%;
+  height: 40px;
+  width: 12%;
+}
+
+input#button:hover, button#suggestbutton:hover {
+  border-color: #f3f3f3;
+  color: #fff;
+  background: #334;
+  background: #0563AB;
+  color: #f3f3f3;
+}
+
+
+button#suggestbutton{
+	color: #f3f3f3;
+  /* background: #334; */
+  background: #082E57;
+  border: 1px solid #334;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* float: right; */
+  margin-left: 2%;
+  height: 40px;
+  width: 80%;
+	
+	}
+	
+	div#search_modules {
+  background: rgb(252, 252, 252);
+  padding: 3%;
+  width:60%;
+  float:left;
+  display:inline-block;
+}
+
+div#suggested {
+  background: rgb(252, 252, 252);
+  padding: 3%;
+  width: 25%;
+  float: right;
+  display: inline-block;
+}
+
+div#finds {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 5%;
+}
+
+div#create_modules {
+  background: rgb(252, 252, 252);
+  padding: 3%;
+  width: 100%;
+  /* float: left; */
+  /* display: inline-block; */
+  margin-bottom: 8%;
+}
+
+input#modulename, input#modulecode, input#modulecollege, input#moduleyear, input#booktitle, input#bookauthor, input#bookedition {
+  /* width: 96%; */
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #aaa;
+  background: #fff;
+  text-align: center;
+  font-size: 1rem;
+}
+
+input#modulecreate, input#addbooksbutton {
+  float: right;
+  margin: 15px 0 0 0;
+  color: #f3f3f3;
+  /* background: #334; */
+  background: #082E57;
+  border: 1px solid #334;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 15%;
+}
+
+input#modulecreate:hover, input#addbooksbutton:hover
+{
+	border-color: #f3f3f3;
+  color: #fff;
+  background: #334;
+  background: #0563AB;
+  color: #f3f3f3;
+	
+	}
+	
+	div#addbooks {
+  background: rgb(252, 252, 252);
+  padding: 3%;
+  width: 100%;
+    color: #333;
+  font-family: Lato, sans-serif;
+  /* float: left; */
+  /* display: inline-block; */
+}
+/*
+.bookicon {
+	
+	 /*width: 100px; 
+	 height: 100px; */
+	/*content: url(" http://bookdealer.ie/htdocs/includes/books.png");
+	 height: 25%;
+	 width:25%;
+	 */
+	 /*
+	 background: url(" http://bookdealer.ie/htdocs/includes/books.png");
+	 
+	background-size:   cover;                     
+    background-repeat: no-repeat;
+    background-position: center center; 
+	border-spacing: 0;
+	 
+}
+
+.bookicon:hover { 
+
+	content: url(" http://bookdealer.ie/htdocs/includes/books2.png"); 
+	
+}
+
+ /*.imgBox:hover { width: 191px; height: 191px; background: url(http://www.corelangs.com/css/box/img/peng.png) no-repeat; } - See more at: http://www.corelangs.com/css/box/hover.html#sthash.gVpMU9vu.dpuf
+
+
+
+/*#settings{
+	
+	
+	 margin-left: 35%;
+	 width: 30%;
+	 
+	 box-sizing: border-box;
+  	font-family: "proxima-nova", sans-serif;
+  	font-weight: 100;
+  	
+	
+	
+}
+
+
+a#options{
+		
+	float:right;
+	
+
+}
+
+#options{
+	
+	
+	 margin-left: 35%;
+	 width: 30%;
+	 
+	 box-sizing: border-box;
+  	font-family: "proxima-nova", sans-serif;
+  	font-weight: 100;
+  	
+	
+	
+}*/

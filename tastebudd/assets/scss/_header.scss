@@ -1,0 +1,262 @@
+//Header Container
+#header-container{
+    background: url(/assets/img/header-background.png);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    z-index: 1;
+}
+
+#header-content-container {
+    height: 100%;
+} 
+
+#header-content {
+    height: 100%;
+   @include display-flex();
+    flex-direction: column;
+}
+
+#header-items {
+    flex: 1;
+    padding: 50px 0px 0px 0px;
+    height: 100%;
+}
+
+.header-content-col {
+    overflow: hidden;
+}
+
+//Left Header
+#header-logo-container {
+    position: relative;
+}
+
+#header-logo {
+    display: block;
+    height: auto;
+    width: 50%;
+}
+
+#header-text {
+    @include display-flex();
+    flex-direction: column;
+    justify-content: center;
+}
+
+#header-title {
+    color: white;
+    font-weight: 700;
+    font-size: 10vw;
+    line-height: 10vw;
+}
+
+#header-subltitle {
+    /*font-size: 38px;*/
+    font-size: 2.65vw;
+    font-weight: 300;
+    color: white;
+    width: 80%;
+}
+
+.header-text-margin{
+     margin: 5% 0px 0px 0px;
+}
+
+#signup-form{
+    position: relative;
+}
+
+#email-icon-container {
+    width: 48px;
+    position: absolute;
+    height: 100%;
+    @include display-flex();
+    align-items: center;
+    justify-content: center;
+}
+
+input#email-input {
+    font-size: 20px;
+    padding: 10px 45px;
+    width: 50%;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 1px;
+    font-family: Proxima-Nova;
+    margin-right: 5px;
+    background-color: white;
+    background-size: 24px;
+    background-position: 10px 50%;
+}
+
+input#submit-button {
+    padding: 10px 25px !important;
+    background-color: $pink;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+    color: white;
+    font-family: $primary-font;
+    cursor: pointer;
+}
+
+textarea, input { 
+    outline: none; 
+}
+
+#signup-response, #signup-response-bottom{
+    color: white;
+    margin-top: 10px;
+    height: 20px;
+    font-size: 16px;
+}
+
+/* Change the white to any color ;) */
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    opacity: 1;
+}
+
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
+
+//Right Header
+#header-phone-container {
+    @include display-flex();
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+    padding-left: 100px;
+}
+
+#header-screenshot {
+    max-height: 768px;
+    height: 100%;
+    width: auto;
+}
+
+@media screen and (min-width: $desktop-l) {
+   #header-title {
+        font-size: 144px;
+        line-height: 144px;
+    }
+    
+    #header-subltitle {
+        font-size: 38px;
+    }
+    
+    #nav-item{
+        font-size: 18px;
+    }
+    
+    .header-text-margin{
+        margin: 25px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: $desktop) {
+    
+}
+
+@media screen and (max-width: $laptop) {
+    #header-phone-container{
+        padding-left: 50px;
+    }
+    
+}
+
+@media screen and (max-width: $tablet) {
+    #header-phone-container{
+        padding-left: 25px;
+    }
+    
+    #header-items {
+        padding: 50px 0px 0px 0px;
+    }
+    
+    #header-text {
+        justify-content: flex-start;
+    }
+    
+    #nav-item {
+        font-size: 10px;
+    }
+
+    #email-input {
+        height: 38px;
+        width: 75%;
+        margin-bottom: 10px;
+    }
+    
+    #email-icon-container{
+        height: 38px;
+    }
+ 
+    
+    #navbar {
+        height: 40px;
+    }
+    
+    input#email-input {
+        width: 80%;
+        max-width: 180px;
+        font-size: 12px;
+        height: 24px;
+        padding: 0 5px 0 25px;
+    }
+    
+    #email-icon-container img {
+        width: 12px;
+        height: 12px;
+    }
+    
+    #email-icon-container {
+        height: 24px;
+        width: 24px;
+    }
+    
+    input#submit-button {
+        padding: 5px 15px !important;
+        font-size: 10px;
+    }
+    
+    #signup-response, #signup-response-bottom{
+        font-size: 8px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: $mobile-l) {
+    
+    
+    #navbar-nav {
+        min-width: 115px;
+    }
+    
+    #nav-item {
+        font-size: 8px;
+    }
+    
+    #header-items {
+        padding: 25px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: $mobile-m) {
+   
+}
+
+@media screen and (max-width: $mobile-s) {    
+
+}
+
+
+
+
+
+
+

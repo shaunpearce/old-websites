@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: $primary-font;
+}
+
+.page-wrapper{
+    max-width: 1440px;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    overflow: hidden;  
+}
+
+
+.page-padding{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+@media screen and (min-width: $desktop-l) {
+   
+}
+
+@media screen and (max-width: $desktop) {
+    
+}
+
+@media screen and (max-width: $laptop) {
+    .page-padding{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .page-padding{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: $mobile-l) {
+    
+}
+
+@media screen and (max-width: $mobile-m) {
+   
+}
+
+@media screen and (max-width: $mobile-s) {    
+
+}
